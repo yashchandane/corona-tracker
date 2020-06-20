@@ -18,6 +18,9 @@
 			<li class="nav-item active">
 				<a class="nav-link" href="index.php"><b>Home</b> <span class="sr-only">(current)</span></a>
 			</li>
+			<li class="nav-item text-center">
+				<a class="nav-link" href="indiacoronalive.php"><b>India Corona LIVE</b></a>
+			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="worldcoronalive.php"><b>world Corona LIVE</b></a>
 			</li> 
