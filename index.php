@@ -33,9 +33,9 @@
 		          <b>Features</b>
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		         	<a class="dropdown-item " href="covidBOT.php"><b>covidBOT</b></a>
+		         	<a class="dropdown-item " href="covidbot.php"><b>covidBOT</b></a>
 		          	<a class="dropdown-item" href="https://www.aawaz.com/"><b>Engage time here</b></a>
-		          	<a class="dropdown-item" href="http://127.0.0.1:5000/"><b>Corona Inspector</b></a>
+		          	<a class="dropdown-item" href="https://coronainspector.herokuapp.com/"><b>Corona Inspector</b></a>
 		         </div>
 		    </li>
 			<li class="nav-item dropdown text-center">
