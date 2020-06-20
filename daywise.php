@@ -46,7 +46,7 @@ $data = file_get_contents('https://api.covid19india.org/data.json');
 $daywise = json_decode($data, true);
 $totalcount = count($daywise['cases_time_series']);
 $i=0;
-while($i < $totalcount){
+while($i < $totalcount--){
 
 ?>
 
@@ -55,7 +55,7 @@ while($i < $totalcount){
 	<th colspan="5"> </th>
 </tr>
 <tr>
-	<td colspan="6" class = "text-left"> <?php echo $daywise['cases_time_series'][$i]['date'] . "</br>" ; ?> </td>
+	<td colspan="6" class = "text-left"> <?php echo $daywise['cases_time_series'][$totalcount]['date'] . "</br>" ; ?> </td>
 </tr>
 
 <tr class="text-capitalize text-white">
@@ -68,17 +68,17 @@ while($i < $totalcount){
 </tr>
 
 <tr class="mb-5">
-	<td style="background: #bed2f3;"> <?php echo $daywise['cases_time_series'][$i]['totalconfirmed'] . "</br>" ; ?> </td>
-	<td style="background: #ffe493;"> <?php echo $daywise['cases_time_series'][$i]['totalrecovered'] . "</br>" ; ?> </td>
-	<td style="background: #9ed9ccff;"> <?php echo $daywise['cases_time_series'][$i]['totaldeceased'] . "</br>" ; ?> </td>
-	<td style="background: #fc95c6;"> <?php echo $daywise['cases_time_series'][$i]['dailyconfirmed'] . "</br>" ; ?> </td>
-	<td style="background: #88d28b;"> <?php echo $daywise['cases_time_series'][$i]['dailyrecovered'] . "</br>" ; ?> </td>
-	<td style="background: #fb99a1;"> <?php echo $daywise['cases_time_series'][$i]['dailydeceased'] . "</br>" ; ?> </td>
+	<td style="background: #bed2f3;"> <?php echo $daywise['cases_time_series'][$totalcount]['totalconfirmed'] . "</br>" ; ?> </td>
+	<td style="background: #ffe493;"> <?php echo $daywise['cases_time_series'][$totalcount]['totalrecovered'] . "</br>" ; ?> </td>
+	<td style="background: #9ed9ccff;"> <?php echo $daywise['cases_time_series'][$totalcount]['totaldeceased'] . "</br>" ; ?> </td>
+	<td style="background: #fc95c6;"> <?php echo $daywise['cases_time_series'][$totalcount]['dailyconfirmed'] . "</br>" ; ?> </td>
+	<td style="background: #88d28b;"> <?php echo $daywise['cases_time_series'][$totalcount]['dailyrecovered'] . "</br>" ; ?> </td>
+	<td style="background: #fb99a1;"> <?php echo $daywise['cases_time_series'][$totalcount]['dailydeceased'] . "</br>" ; ?> </td>
 
 </tr>
 
 <?php
-$i++;
+$t0;
 }
 ?>
 

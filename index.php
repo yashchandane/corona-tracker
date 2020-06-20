@@ -18,24 +18,26 @@
 			<li class="nav-item active">
 				<a class="nav-link text-center" href="#"><b>Home</b> <span class="sr-only">(current)</span></a>
 			</li>
-			<li class="nav-item text-center ">
-				<a class="nav-link" href="#aboutid"><b>about</b></a>
-			</li>
-			<li class="nav-item text-center">
-				<a class="nav-link" href="#symid"><b>symptoms</b></a>
-			</li>
-			<li class="nav-item text-center">
-				<a class="nav-link" href="#preventid"><b>preventions</b></a>
-			</li>
-			<li class="nav-item text-center">
-				<a class="nav-link" href="#covidbot"><b>covidBOT</b></a>
-			</li>
-			<li class="nav-item text-center">
-				<a class="nav-link" href="https://www.aawaz.com/"><b>Engage time here</b></a>
-			</li>
-			<li class="nav-item text-center">
-				<a class="nav-link" href="http://127.0.0.1:5000/"><b>Corona Inspector</b></a>
-			</li>
+			<li class="nav-item dropdown text-center">
+		        <a class="nav-link btn-default dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+		          <b>Info</b>
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		         	<a class="dropdown-item " href="#aboutid"><b>about</b></a>
+		          	<a class="dropdown-item" href="#symid"><b>symptoms</b></a>
+		          	<a class="dropdown-item" href="#preventid"><b>preventions</b></a>
+		         </div>
+		    </li>
+		    <li class="nav-item dropdown text-center">
+		        <a class="nav-link btn-default dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+		          <b>Features</b>
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		         	<a class="dropdown-item " href="covidBOT.php"><b>covidBOT</b></a>
+		          	<a class="dropdown-item" href="https://www.aawaz.com/"><b>Engage time here</b></a>
+		          	<a class="dropdown-item" href="http://127.0.0.1:5000/"><b>Corona Inspector</b></a>
+		         </div>
+		    </li>
 			<li class="nav-item dropdown text-center">
 		        <a class="nav-link btn-default dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
 		          <b>Live Section</b>
@@ -244,25 +246,6 @@
 		</div>
 	</div>
 </div>
-
-
-<!-- *********************chat bot popup***************** -->
-
-<div class="container-fluid pt-5 pb-5 " id="covidbot">
-	<div class="section_header text-center mb-5 mt -4">
-		<h1>Any Doubts? Chat here !!</h1>
-	</div>
-
-
-<div class=" container-fluid col-lg-4 col-md-4 col-12 mt-5 md-5 text-center">
-	<iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/45d56f47-cfbb-4898-a5e0-16e69ea64ed2">
-</iframe>
-</div>
-
 
 <!-- ******************* Contact us ********************* -->
 
